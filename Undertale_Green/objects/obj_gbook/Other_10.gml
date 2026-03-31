@@ -1,0 +1,15 @@
+global.msg[0] = "[character,none,-1][delay,1]* It's a book.[/page]";
+global.msg[1] = "[character,none,-1][delay,1]* You think about the book you\n  want to write someday.[/page]";
+global.msg[2] = "[character,none,-1][delay,1]* 'The Legend of Olive:\n  A Tale of Friendship and\n  Family[/page]";
+global.msg[3] = "[character,none,-1][delay,1]* 'and Awesome Fight Scenes and\n  Being Super Powerful and Stuff[/page]";
+global.msg[4] = "[character,none,-1][delay,1]* 'and I Wear Super Cool Armor\n  and Beat the Big Evil Guy in\n  the End[/page]";
+global.msg[5] = "[character,none,-1][delay,1]* 'but There Were Secretly Two\n  Evil Guys so I Beat the Other\n  One Too'[/page]";
+global.msg[6] = "[character,none,-1][delay,1]* ...[delay,333]\n* You're still working on\n  the title.";
+global.msg_esp[0] = "[character,none,-1][delay,1]* Es un libro.[/page]";
+global.msg_esp[1] = "[character,none,-1][delay,1]* Piensas sobre esa historia\n  que te gustaría contar\n  algún día.[/page]";
+global.msg_esp[2] = "[character,none,-1][delay,1]* 'La Leyenda de Olive:\n  Una Historia de Amistades\n  y Familia[/page]";
+global.msg_esp[3] = "[character,none,-1][delay,1]* 'y Peleas Super Guays\n y Siendo Invencible y Demás[/page]";
+global.msg_esp[4] = "[character,none,-1][delay,1]* 'Vistiendo una Armadura\n  y Me Peleo Contra el Malo y\n  Gano al Final[/page]";
+global.msg_esp[5] = "[character,none,-1][delay,1]* 'pero Secretamente Habían\n  Dos Villanos y también\n  Gano al Otro'[/page]";
+global.msg_esp[6] = "[character,none,-1][delay,1]* ...[delay,333]\n* Reconoces que el título\n  no es el mejor.";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

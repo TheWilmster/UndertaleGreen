@@ -1,0 +1,11 @@
+randomize();
+alarm_len = 0;
+shakes = choose(0, 1, 2);
+shaking = false;
+pull_up = false;
+fly_type = 1;
+left_pebble = 2;
+right_pebble = 2;
+move_up = false;
+damage = 4;
+alarm_set(0, 50);

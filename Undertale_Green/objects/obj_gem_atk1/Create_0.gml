@@ -1,0 +1,14 @@
+randomize();
+image_speed = 0;
+image_index = choose(0, 1, 2, 3, 4);
+damage = 2;
+hspeed = 0.24 * (x - 320);
+vspeed = -9;
+depth = -100000;
+rotation = random_range(-14, 14);
+fall = false;
+timetofalltoggle = false;
+audio_play_sound(snd_arrow, 1, false, 0.2);
+bounces = 1;
+bounce_speed = random_range(-1, -6);
+bounce_hspeed = random_range(-4, 4);

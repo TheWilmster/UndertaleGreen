@@ -1,0 +1,12 @@
+depth = -12001;
+image_speed = 0;
+image_alpha = 0;
+start = false;
+benddown = false;
+shake = false;
+pulltimes = 0;
+pullsuccess = false;
+fallover = false;
+breathe = false;
+movedestiny = false;
+spr_x = x;

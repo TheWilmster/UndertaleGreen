@@ -1,0 +1,13 @@
+global.msg[0] = "[character,wedge_muffle,-1][delay,1]* DON'T COME IN![/page]";
+global.msg[1] = "[character,wedge_muffle,-1][delay,1]* N-[delay,150]NO ONE'S HERE![/page]";
+global.msg[2] = "[character,wedge_muffle,-1][delay,1]* WHY DON'T YOU GO AFTER THOSE\n  PIT PUNKS,[delay,333] HUH?[/page]";
+global.msg[3] = "[character,wedge_muffle,-1][delay,1]* THEY'RE WAY WORSE THAN MY\n  H-[delay,150]HARMLESS LITTLE STORAGE\n  CLOSET![/page]";
+global.msg[4] = "[character,wedge_muffle,-1][delay,1]* ...[/page]";
+global.msg[5] = "[character,wedge_muffle,-1][delay,1]* Hello?[dooropen]";
+global.msg_esp[0] = "[character,wedge_muffle,-1][delay,1]* ¡NO ESNTRES![/page]";
+global.msg_esp[1] = "[character,wedge_muffle,-1][delay,1]* ¡N-[delay,150]NO HAY NADIE AQUÍ![/page]";
+global.msg_esp[2] = "[character,wedge_muffle,-1][delay,1]* ¿POR QUÉ NO VAS A POR\n  ESOS MÚSICOS,[delay,333] ¿EH?[/page]";
+global.msg_esp[3] = "[character,wedge_muffle,-1][delay,1]* ¡SON MUCHO MÁS RAROS\n  Q-[delay,150]QUE MY PEQUEÑA\n  TIENDARMARIO![/page]";
+global.msg_esp[4] = "[character,wedge_muffle,-1][delay,1]* ...[/page]";
+global.msg_esp[5] = "[character,wedge_muffle,-1][delay,1]* ¿Hola?[dooropen]";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

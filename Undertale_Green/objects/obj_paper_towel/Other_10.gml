@@ -1,0 +1,15 @@
+global.msg[0] = "[character,none,-1][delay,1]* It's a paper towel dispenser.[/page]";
+global.msg[1] = "[character,none,-1][delay,1]* You wonder if there's such\n  thing as a regular towel\n  dispenser.[/page]";
+global.msg[2] = "[character,none,-1][delay,1]* You wonder what a towel even\n  is.[/page]";
+global.msg[3] = "[character,none,-1][delay,1]* Do they just clean things?[delay,333]\n* Couldn't a lot of things be a\n  towel,[delay,333] then?[/page]";
+global.msg[4] = "[character,none,-1][delay,1]* Could your clothes be towels?[delay,333]\n* If you clean something,[delay,333] are\n  you a towel?[/page]";
+global.msg[5] = "[character,none,-1][delay,1]* Can you be dispensed?[/page]";
+global.msg[6] = "[character,none,-1][delay,1]* These are the questions.";
+global.msg_esp[0] = "[character,none,-1][delay,1]* Es un dispensador de toallitas.[/page]";
+global.msg_esp[1] = "[character,none,-1][delay,1]* Te preguntas si existirán\n  cosas como un dispensador\n  de dispensadores.[/page]";
+global.msg_esp[2] = "[character,none,-1][delay,1]* Te preguntas también qué\n  es una toallita.[/page]";
+global.msg_esp[3] = "[character,none,-1][delay,1]* ¿Solo limpian cosas,[delay,333] y ya?[delay,333]\n* Entonces muchas cosas podrían\n  ser toallitas,[delay,333] ¿no?[/page]";
+global.msg_esp[4] = "[character,none,-1][delay,1]* ¿podría tu ropa ser toallitas?[delay,333]\n* Si limpias algo,[delay,333] ¿te vuelves\n  una toallita?[/page]";
+global.msg_esp[5] = "[character,none,-1][delay,1]* ¿Te meterían en un\n  dispensador?[/page]";
+global.msg_esp[6] = "[character,none,-1][delay,1]* Preguntas.[delay,333]\n  Preguntas importantes...";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

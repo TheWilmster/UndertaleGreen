@@ -1,0 +1,8 @@
+### rm_greenscreen
+Presumably used for the stickers in the Undertale Green discord server, as some of them have a green outline to them.
+### rm_gameover
+Unused because Act 0 doesn't have a game over.
+### rm_pitorch_o
+Older version of rm_pitorch
+### rm_test
+Testing room. Duh.

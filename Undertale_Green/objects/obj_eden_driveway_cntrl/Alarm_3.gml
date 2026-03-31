@@ -1,0 +1,12 @@
+global.msg[0] = "[character,eden,superhappy][delay,1]* ...![freeze][delay,333][continue]![/page]";
+global.msg[1] = "[character,eden,superhappy][delay,1]* I can't believe this![/page]";
+global.msg[2] = "[character,eden,superhappy][delay,1]* Thank you so much,[freeze][delay,333][continue]\n  Olive![/page]";
+global.msg[3] = "[character,eden,happysleep][delay,1]* You just keep on\n  surprising me tonight![/page]";
+global.msg[4] = "[character,eden,happysleep][delay,1]* Would you two care to\n  come in?[/page]";
+global.msg[5] = "[character,eden,happysleep][delay,1]* I'd love to repay the\n  kindness.[/page]";
+global.msg[6] = "[character,eden,happysleep][delay,1]* Plus,[freeze][delay,333][continue] Gray and I always\n  enjoy the company![/page]";
+global.msg[7] = "[character,kaitlyn,faded][delay,1]* Gray's here?[/page]";
+global.msg[8] = "[character,eden,bedangry][delay,1]* Yeah,[freeze][delay,333][continue] no thanks to your\n  snide remarks earlier.[/page]";
+global.msg[9] = "[character,eden,distressed][delay,1]* Also Kaitlyn,[freeze][delay,333][continue] are you...[/page]";
+global.msg[10] = "[character,kaitlyn,faded][delay,1]* I guess I can stop by\n  for a second.[driveway4]";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

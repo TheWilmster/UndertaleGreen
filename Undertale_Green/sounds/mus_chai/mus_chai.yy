@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mus_chai",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":48.039185,
+  "exportDir":"",
+  "name":"mus_chai",
+  "parent":{
+    "name":"Character Themes",
+    "path":"folders/Sounds/Music/Overworld/Character Themes.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_chai.mp3",
+  "volume":0.9,
+}

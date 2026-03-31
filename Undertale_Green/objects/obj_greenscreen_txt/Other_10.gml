@@ -1,0 +1,18 @@
+global.msg[0] = "[character,monst,normal][delay,1]* Hello Ms. Librarian![/page]";
+global.msg[1] = "[character,lib,normal][delay,1]* Welcome back.[freeze][delay,333][continue]\n* What can I help you with\n  today?[/page]";
+global.msg[2] = "[character,monst,normal][delay,1]* So my mom was talking about\n  humans last night.[/page]";
+global.msg[3] = "[character,monst,normal][delay,1]* And I thought to myself,[freeze][delay,333][continue]\n  what do I really know about\n  them?[/page]";
+global.msg[4] = "[character,monst,normal][delay,1]* Turns out,[freeze][delay,333][continue] nothing![/page]";
+global.msg[5] = "[character,lib,normal][delay,1]* Well,[freeze][delay,333][continue] if you'd like to learn\n  more you've come to the right\n  place.[/page]";
+global.msg[6] = "[character,lib,normal][delay,1]* Our blue books cover what we \n  know about their bodies,[freeze][delay,333][continue]\n  while our green collection...[/page]";
+global.msg[7] = "[character,monst,normal][delay,1]* Ms. Librarian,[freeze][delay,333][continue] do you know\n  anything about the humans who\n  came down here?[/page]";
+global.msg[8] = "[character,lib,normal][delay,1]* Oh.[freeze][delay,333][continue]\n* Well not too much,[freeze][delay,333][continue] I suppose.[/page]";
+global.msg[9] = "[character,lib,normal][delay,1]* Our historians have put\n  together bits and pieces about\n  each of them.[/page]";
+global.msg[10] = "[character,lib,normal][delay,1]* Of course,[freeze][delay,333][continue] only the King\n  knows everything.[/page]";
+global.msg[11] = "[character,lib,normal][delay,1]* ...[freeze][delay,333][continue]Though come to think of it,[freeze][delay,333][continue]\n  one of them does stand out\n  as quite odd.[/page]";
+global.msg[12] = "[character,lib,normal][delay,1]* Only a few monsters ever spoke\n  to them,[freeze][delay,333][continue] and they were very\n  small exchanges.[/page]";
+global.msg[13] = "[character,lib,normal][delay,1]* They certainly didn't make any\n  friends down here.[/page]";
+global.msg[14] = "[character,monst,normal][delay,1]* Do we know their name?[/page]";
+global.msg[15] = "[character,lib,normal][delay,1]* Yes.[freeze][delay,333][continue]\n* If I'm not mistaken...[/page]";
+global.msg[16] = "[character,lib,normal][delay,1]* ...[freeze][delay,333][continue]I believe it was Olive.";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

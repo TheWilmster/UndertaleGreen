@@ -1,0 +1,10 @@
+alarm[0] = 45;
+x_sc = 1;
+y_sc = 1;
+bh_xsc = 1;
+bh_ysc = 1;
+pumpdown = false;
+pumpdown_back = false;
+pumpcomplete = false;
+bigheart = false;
+bh_alpha = 1;

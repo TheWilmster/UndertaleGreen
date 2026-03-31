@@ -1,0 +1,11 @@
+book_img = 0;
+book_y = 30;
+book_alpha = 0;
+depth = -99999999;
+draw_height = 30;
+start_drawing = false;
+drawing_complete = false;
+step_since_spawned = 0;
+fade_in = true;
+fade_out = false;
+has_drawn = false;

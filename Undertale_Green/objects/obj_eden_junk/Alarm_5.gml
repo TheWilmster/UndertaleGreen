@@ -1,0 +1,16 @@
+instance_create_depth(154, 174, -99999, obj_gray_junk);
+audio_play_sound(snd_dooropen, 1, false);
+global.msg[0] = "[character,gray,graymiffed][delay,1]* What's your problem...[/page]";
+global.msg[1] = "[character,gray,ohshit][delay,1]* Oh shit.[/page]";
+global.msg[2] = "[character,eden,scaredcontrol][owsprite,eden,plush0][delay,1]* Gray,[freeze][delay,333][continue] I need you to\n  get a first aid kit\n  right away.[/page]";
+global.msg[3] = "[character,eden,scaredcontrol][delay,1]* One should be in the\n  medicine cabinet.[/page]";
+global.msg[4] = "[character,eden,neu][delay,1]* If things get worse\n  we'll need to go to\n  the emergency room.[/page]";
+global.msg[5] = "[character,eden,neu][delay,1]* Is Kaitlyn still here?[/page]";
+global.msg[6] = "[character,gray,stressed][delay,1]* ...I think she just\n  left.[/page]";
+global.msg[7] = "[character,eden,bedscared][owsprite,eden,plush2][delay,1]* SHE LEFT!?[/page]";
+global.msg[8] = "[character,gray,tweak][delay,1]* Just a moment ago,[freeze][delay,333][continue] she\n  said to call Chai if\n  you needed anything.[/page]";
+global.msg[9] = "[character,eden,crazy][owsprite,eden,plush3][delay,1]* I...[/page]";
+global.msg[10] = "[character,eden,crazy][delay,1]* I don't even have\n  words for that.[/page]";
+global.msg[11] = "[character,eden,crazy][delay,1]* Go get a first aid\n  kit.[/page]";
+global.msg[12] = "[character,gray,stressed][delay,1]* Got it.[junk5]";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

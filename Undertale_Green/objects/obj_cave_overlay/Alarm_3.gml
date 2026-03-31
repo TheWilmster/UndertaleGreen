@@ -1,0 +1,12 @@
+global.msg[0] = "[character,kaitlyn,terrorFB][delay,1]* Was that a tree!?[/page]";
+global.msg[1] = "[character,chai,concernedFB][delay,1]* Destiny,[freeze][delay,333][continue] do you have\n  a flashlight?[/page]";
+global.msg[2] = "[character,chai,concernedFB][delay,1]* We really shouldn't\n  move until we have\n  light.[/page]";
+global.msg[3] = "[character,alaska,smugFB][delay,1]* Especially with that\n  hole in the floor.[/page]";
+global.msg[4] = "[character,kaitlyn,neutralFB][delay,1]* Please stop talking.[/page]";
+global.msg[5] = "[character,destiny,spookedFB][delay,1]* I might have something\n  in my bag.[/page]";
+global.msg[6] = "[character,destiny,spookedFB][delay,1]* ...[/page]";
+global.msg[7] = "[character,destiny,spookedFB][delay,1]* Where did I put it?[/page]";
+global.msg[8] = "[character,chai,spookedFB][delay,1][fannypack]* Actually,[freeze][delay,333][continue] I might have\n  something in my fanny\n  pack.[/page]";
+global.msg[9] = "[character,kaitlyn,smugFB][delay,1]* You have a fanny\n  pack?[/page]";
+global.msg[10] = "[character,destiny,madFB][delay,1]* You're complaining?[trip]";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

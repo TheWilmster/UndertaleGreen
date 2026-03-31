@@ -1,0 +1,11 @@
+global.talking = self;
+global.save_photo = 7;
+global.msg[0] = "[character,none,-1][delay,1]* Don't laugh.[/page]";
+global.msg[1] = "[character,none,-1][delay,1]* Penguins are essential to the\n  atmosphere of this play.[/page]";
+global.msg[2] = "[character,none,-1][delay,1]* I don't usually dress like\n  this.[/page]";
+global.msg[3] = "[character,none,-1][delay,1]* I go to the gym.[freeze][delay,333][continue]\n* Almost daily.";
+global.msg_esp[0] = "[character,none,-1][delay,1]* No te rías.[/page]";
+global.msg_esp[1] = "[character,none,-1][delay,1]* Los pingüinos son esenciales\n  para brindar un poco de\n  humor a este espectáculo.[/page]";
+global.msg_esp[2] = "[character,none,-1][delay,1]* No suelo vestirme así.[/page]";
+global.msg_esp[3] = "[character,none,-1][delay,1]* Voy al gimnasio.[freeze][delay,333][continue]\n* Casi todos los días.";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

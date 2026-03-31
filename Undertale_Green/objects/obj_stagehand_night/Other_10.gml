@@ -1,0 +1,11 @@
+global.msg[0] = "[character,none,-1][delay,1]* Hey kid.[delay,333]\n* I got time now.[/page]";
+global.msg[1] = "[character,none,-1][delay,1]* Not easy being me,[delay,333] but\n  someone's gotta do it.[/page]";
+global.msg[2] = "[character,none,-1][delay,1]* All this peace and quiet\n  almost makes it all worth it.[delay,333]\n* You know?[/page]";
+global.msg[3] = "[character,none,-1][delay,1]* Almost.[/page]";
+global.msg[4] = "[character,none,-1][delay,1]* I still hate those four girls.";
+global.msg_esp[0] = "[character,none,-1][delay,1]* Oye.[delay,333]\n* Por fin tengo tiempo.[/page]";
+global.msg_esp[1] = "[character,none,-1][delay,1]* No es fácil ser yo,[delay,333] pero\n  alguien tiene que lidiar\n  con el trabajo sucio.[/page]";
+global.msg_esp[2] = "[character,none,-1][delay,1]* Toda esta tranquilidad hace\n  que casi lo merezca.[delay,333]\n* ¿Sabes?[/page]";
+global.msg_esp[3] = "[character,none,-1][delay,1]* Casi.[/page]";
+global.msg_esp[4] = "[character,none,-1][delay,1]* Sigo odiando a esas cuatro\n  chicas.";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

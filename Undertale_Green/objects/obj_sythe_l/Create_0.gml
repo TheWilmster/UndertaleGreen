@@ -1,0 +1,14 @@
+damage = 4;
+depth = -9998;
+randomize();
+first_sythe = choose(1, 2);
+obj_sythe_r.first_sythe = first_sythe;
+fade_in = 0;
+image_alpha = 0;
+image_speed = 0;
+vspeed = 3;
+swipe = 0;
+swipe2 = 0;
+shake = false;
+pos_x = x;
+siner = 0;

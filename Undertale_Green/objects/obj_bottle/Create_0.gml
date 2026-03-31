@@ -1,0 +1,11 @@
+damage = 3;
+depth = -9998;
+follow_player = 1;
+tip_over = 0;
+tip_frame = 0;
+shake_bottle = 0;
+shake_number = 0;
+shake_count = 0;
+drop_count = 0;
+falling = 0;
+alarm_set(0, 20);

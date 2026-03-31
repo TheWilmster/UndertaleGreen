@@ -1,0 +1,1 @@
+obj_enemy_chai.battle_image = spr_enemy_chai_head_down_neutral;

@@ -1,0 +1,12 @@
+global.msg[0] = "[character,eden,bedangry][owsprite,edengray,1][delay,1]* ...So you don't mind\n  Kaitlyn coming in,[freeze][delay,333][continue] but\n  Olive is too much.[/page]";
+global.msg[1] = "[character,gray,graymiffed][delay,1]* Look,[freeze][delay,333][continue] I don't wanna be\n  rude...[/page]";
+global.msg[2] = "[character,gray,graymiffed][delay,1]* ...but I already did my\n  time babysitting today.[/page]";
+global.msg[3] = "[character,eden,bedangry][delay,1]* Yeah,[freeze][delay,333][continue] you made that\n  clear when you blew up\n  in front of everyone.[/page]";
+global.msg[4] = "[character,gray,bhangry][delay,1]* So you do want to\n  talk about that?[freeze][delay,333][continue] I\n  thought you cancelled...[/page]";
+global.msg[5] = "[character,eden,happysleep][owsprite,edengray,2][delay,1]* Oh,[freeze][delay,333][continue] hello Olive![freeze][delay,333][continue]\n* Goodness,[freeze][delay,333][continue] I didn't see\n  you there.[/page]";
+global.msg[6] = "[character,gray,bheyeroll][delay,1]* What's up little Chai.[/page]";
+global.msg[7] = "[character,eden,bedangry][owsprite,edengray,3][delay,1]* (Seriously?)[/page]";
+global.msg[8] = "[character,eden,happysleep][owsprite,edengray,2][delay,1]* Feel free to look\n  around![/page]";
+global.msg[9] = "[character,eden,happysleep][delay,1]* We're happy to have\n  you here.";
+instance_create_depth(x, y, -1000, obj_textboxNEW);
+diastart = 1;

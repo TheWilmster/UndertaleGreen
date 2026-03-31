@@ -1,0 +1,11 @@
+global.msg[0] = "[character,none,-1][delay,1]* An unopened Jollypop lies on\n  the ground.[/page]";
+global.msg[1] = "[character,none,-1]* You're too naive to not eat\n  it.[/page]";
+global.msg[2] = "[character,none,-1]* Pick it up?[choice]";
+global.msg_esp[0] = "[character,none,-1][delay,1]* Un caramelo sin abrir\n  se encuentra en el suelo.[/page]";
+global.msg_esp[1] = "[character,none,-1]* Simplemente no puedes apartar\n  la mirada de él.[/page]";
+global.msg_esp[2] = "[character,none,-1]* Entonces, ¿eliges el caramelo?[choice]";
+global.choices[0] = "[character,none,-1]\nYes";
+global.choices[1] = "[character,none,-1]\nNo";
+global.choices_esp[0] = "[character,none,-1]\nClaro";
+global.choices_esp[1] = "[character,none,-1]\nNah";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

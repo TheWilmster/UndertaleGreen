@@ -1,0 +1,10 @@
+global.msg[0] = "[character,chai,smile][delay,1]* You remind me so much\n  of him.[/page]";
+global.msg[1] = "[character,chai,smile][delay,1]* I try so hard to live\n  up to the man he\n  was...[/page]";
+global.msg[2] = "[character,chai,smile][delay,1]* But you just do it.[/page]";
+global.msg[3] = "[character,chai,smile][delay,1]* I mean it's dumb,[freeze][delay,333][continue]\n  you're so young and\n  there's...[/page]";
+global.msg[4] = "[character,none,-1][delay,1]* (You tell Chai you never\n  thought about all that work\n  stuff.)[/page]";
+global.msg[5] = "[character,none,-1][delay,1]* (You tell her you liked how\n  he would draw you.)[/page]";
+global.msg[6] = "[character,none,-1][delay,1]* (How special that made you\n  feel.)[/page]";
+global.msg[7] = "[character,none,-1][delay,1]* (You think he would have\n  liked her practicing guitar\n  behind the school.)[/page]";
+global.msg[8] = "[character,chai,blinksmile][delay,1]* I guess he would\n  have.[post4]";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

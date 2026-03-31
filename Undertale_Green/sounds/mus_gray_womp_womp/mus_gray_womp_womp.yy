@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mus_gray_womp_womp",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":24.032654,
+  "exportDir":"",
+  "name":"mus_gray_womp_womp",
+  "parent":{
+    "name":"Character Themes",
+    "path":"folders/Sounds/Music/Overworld/Character Themes.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_gray_womp_womp.mp3",
+  "volume":0.8,
+}

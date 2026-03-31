@@ -1,0 +1,11 @@
+siner = 0;
+image_speed = 0;
+image_index = 0;
+image_alpha = 0;
+fadein = true;
+depth = obj_heart.depth + 1;
+alarm[0] = 30;
+fadeout = false;
+def_x = x;
+def_y = y;
+obj_enemy_soldier.liftarm_lng = true;

@@ -1,0 +1,11 @@
+global.talking = self;
+global.save_photo = 19;
+global.msg[0] = "[character,none,-1][delay,1]* People are REALLY complaining\n  about how much perfume I'm\n  using.[freeze][delay,333][continue] But I'm like...[/page]";
+global.msg[1] = "[character,none,-1][delay,1]* If you're gonna dress me up\n  like this I at LEAST have to\n  smell good.[/page]";
+global.msg[2] = "[character,none,-1][delay,1]* Plus,[freeze][delay,333][continue] people are TOTALLY\n  exaggerating.[freeze][delay,333][continue] This is one of\n  my lightest scents.[/page]";
+global.msg[3] = "[character,none,-1][delay,1]* Anyways,[freeze][delay,333][continue] I think my scene is\n  coming soon.[freeze][delay,333][continue] Wish me luck![snowflake]";
+global.msg_esp[0] = "[character,none,-1][delay,1]* Esta gente SIEMPRE me critica\n  por la cantidad de perfume\n  que utilizo.[freeze][delay,333][continue] Pero...[/page]";
+global.msg_esp[1] = "[character,none,-1][delay,1]* Si me visto de esta manera\n  AL MENOS tendré que oler bien.[/page]";
+global.msg_esp[2] = "[character,none,-1][delay,1]* Además,[freeze][delay,333][continue] la gente está exagerando\n  mucho.[freeze][delay,333][continue] Este es uno de mis aromas\n  menos invasores.[/page]";
+global.msg_esp[3] = "[character,none,-1][delay,1]* De todos modos,[freeze][delay,333][continue] Creo que mi turno\n  ha llegado.[freeze][delay,333][continue] ¡Deséame suerte![snowflake]";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

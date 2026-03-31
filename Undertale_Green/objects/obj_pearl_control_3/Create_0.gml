@@ -1,0 +1,11 @@
+r = 40;
+theta1 = 0;
+theta2 = 0;
+player_theta = 0;
+alarm[0] = 7;
+visible = false;
+distx = 0;
+disty = 0;
+dist_to_player = 0;
+thetaadd = true;
+prev_x = 180;

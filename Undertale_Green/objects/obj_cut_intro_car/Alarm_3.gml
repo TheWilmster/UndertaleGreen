@@ -1,0 +1,10 @@
+global.msg[0] = "[character,chai,-1][delay,1]* Hey,[delay,333] don't ruin this for me,\n[delay,333]  okay?[/page]";
+global.msg[1] = "[character,chai,-1][delay,1]* If it was my way you wouldn't\n  be here in the first place.[/page]";
+global.msg[2] = "[character,chai,-1][delay,1]* ...[/page]";
+global.msg[3] = "[character,chai,-1][delay,1]* I mean it's not my fault mom\n  can't afford a sitter![/page]";
+global.msg[4] = "[character,chai,-1][delay,1]* If she isn't able to manage\n  the bakery,[delay,333] that's on her.[/page]";
+global.msg[5] = "[character,chai,-1][delay,1]* She was never good at it\n  anyways.[/page]";
+global.msg[6] = "[character,chai,-1][delay,1]* Just sit in the hallway or\n  something.[delay,333]\n* I don't care.[/page]";
+global.msg[7] = "[character,chai,-1][delay,1]* It's been weird with my friends\n  lately,[delay,333] and I don't want\n  anything else messing that up.[/page]";
+global.msg[8] = "[character,chai,-1][delay,1]* Please just don't make this\n  any harder for me.[fadeout]";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

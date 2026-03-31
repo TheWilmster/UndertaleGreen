@@ -1,0 +1,13 @@
+depth = -9998;
+randomize();
+damage = 4;
+spawn3 = 0;
+spawn3_jump = 2;
+come_out = false;
+image_speed = 0;
+alarm_set(0, 30);
+alarm_set(2, 60);
+osc = false;
+switch_sides = false;
+largejump_order = [1, 2, 3, 4, 5];
+largejump_order = array_shuffle(largejump_order);

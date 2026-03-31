@@ -1,0 +1,13 @@
+obj_player.visible = false;
+obj_player.curr_state = PlayerState.CUTSCENE;
+obj_player.x = obj_mouse_player.x;
+obj_player.y = obj_mouse_player.y;
+stopmice = false;
+rot_pieces = false;
+alarm[0] = 9;
+alarm[1] = 130;
+alarm[2] = 140;
+alarm[3] = 30;
+fadeout = false;
+fadein = false;
+image_alpha = 0;

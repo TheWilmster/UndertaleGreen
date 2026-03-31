@@ -1,0 +1,9 @@
+image_blend = #F3C79B;
+image_speed = 0;
+image_angle = 0;
+image_xscale = 0.1;
+image_yscale = 0.1;
+vspeed = -0.5;
+fall_scale = 0;
+fall_scale2 = 0;
+alarm[0] = 110;

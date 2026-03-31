@@ -1,0 +1,12 @@
+first_sythe = 0;
+damage = 4;
+depth = -9998;
+fade_in = 0;
+image_alpha = 0;
+image_speed = 0;
+vspeed = 3;
+swipe = 0;
+swipe2 = 0;
+shake = false;
+pos_x = x;
+siner = 0;

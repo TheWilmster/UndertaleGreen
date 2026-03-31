@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"start_play_music",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"start_play_music",
+  "parent":{
+    "name":"Utilities",
+    "path":"folders/Scripts/Utilities.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

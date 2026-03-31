@@ -1,0 +1,13 @@
+randomize();
+depth = 1;
+display = obj_miss2;
+image_speed = 0;
+distancebetween = 0;
+helpme = 0;
+accel = 0;
+alarm_set(0, obj_fight.queen_alarm);
+second_hit = 0;
+second_hit_dir = 0;
+hit_1_damage = 0;
+rotation = random_range(0, 180);
+rotspeed = 0;

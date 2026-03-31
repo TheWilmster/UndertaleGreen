@@ -1,0 +1,14 @@
+randomize();
+image_speed = 0;
+image_index = 0;
+image_alpha = 1;
+fadein = true;
+damage = 4;
+depth = -100000;
+alarm[0] = 40;
+alarm[1] = 60;
+vspeed = random_range(-12, -16);
+audio_play_sound(snd_arrow, 1, false);
+siner = 0;
+shake = false;
+init_x = x;

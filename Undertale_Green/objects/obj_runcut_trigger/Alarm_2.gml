@@ -1,0 +1,11 @@
+global.trip = true;
+trip = true;
+audio_play_sound(snd_bigdoor_open, 1, false);
+audio_play_sound(snd_fall2, 2, false, 0.2);
+audio_stop_sound(snd_forest_riser);
+obj_forest_ambience.heartbeat = false;
+obj_player.visible = false;
+obj_player_dummy.visible = true;
+obj_player_dummy.sprite_index = spr_olive_trip;
+obj_player_dummy.image_index = 0;
+obj_player_dummy.image_speed = 1;

@@ -1,0 +1,11 @@
+global.msg[0] = "[character,wedge,-1][delay,1][lookdown]* Y-[delay,150]You're not Mr. Johnson.[/page]";
+global.msg[1] = "[character,wedge,-1][delay,1]* Why are you so small?[/page]";
+global.msg[2] = "[character,wedge,-1][delay,1]* Do you h-[delay,150]have any money?[/page]";
+global.msg[3] = "[character,none,-1][delay,1]* (You tell him you might.)[/page]";
+global.msg[4] = "[character,wedge,-1][delay,1]* ...[delay,333]Okay,[delay,333] come in.[delay,333]\n* Pardon the mess.[shopenter]";
+global.msg_esp[0] = "[character,wedge,-1][delay,1][lookdown]* T-[delay,150]Tú no eres el Sr. Johnson.[/page]";
+global.msg_esp[1] = "[character,wedge,-1][delay,1]* ¿Por qué mides tan poco?[/page]";
+global.msg_esp[2] = "[character,wedge,-1][delay,1]* ¿Acaso t-[delay,150]tienes dinero?[/page]";
+global.msg_esp[3] = "[character,none,-1][delay,1]* (Le dices que a lo mejor.)[/page]";
+global.msg_esp[4] = "[character,wedge,-1][delay,1]* ...[delay,333]Okay,[delay,333] entra.[delay,333]\n* Perdona el estropicio.[shopenter]";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

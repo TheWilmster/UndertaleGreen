@@ -1,0 +1,17 @@
+y_spd = 0;
+x_spd = 0;
+grav = 0;
+deltay = 0;
+vf_sqrd = 0;
+b_x = 0;
+shake = false;
+siner = 0;
+bigjump = false;
+randomize();
+jumptimes = 0;
+randomize();
+jump = true;
+depth = -999999999999999;
+damage = 3;
+vspeed = 1.5;
+image_speed = 0;

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"mus_rat_ride_reprise",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":1,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":28.760817,
+  "exportDir":"",
+  "name":"mus_rat_ride_reprise",
+  "parent":{
+    "name":"Cutscenes",
+    "path":"folders/Sounds/Music/Cutscenes.yy",
+  },
+  "preload":true,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_rat_ride_reprise.mp3",
+  "volume":1.0,
+}

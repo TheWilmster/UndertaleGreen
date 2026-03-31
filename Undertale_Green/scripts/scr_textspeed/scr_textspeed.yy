@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_textspeed",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_textspeed",
+  "parent":{
+    "name":"Textbox",
+    "path":"folders/Scripts/Systems/Textbox.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

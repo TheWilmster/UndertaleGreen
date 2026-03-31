@@ -1,0 +1,15 @@
+global.msg[0] = "[character,alaska,happy][delay,1]* Are you girls ready to\n  wreck that place\n  tonight?[/page]";
+global.msg[1] = "[character,destiny,smug][delay,1]* More than it already\n  is?[/page]";
+global.msg[2] = "[character,destiny,smug][delay,1]* I think the dead guy\n  already ruined it.[/page]";
+global.msg[3] = "[character,alaska,hyped][delay,1]* ARE YOU GIRLS READY TO\n  PARTY?![/page]";
+global.msg[4] = "[character,kaitlyn,ugh][delay,1]* Not if you're gonna\n  be like that.[/page]";
+global.msg[5] = "[character,alaska,smug][delay,1]* Well you better deal\n  with it.[/page]";
+global.msg[6] = "[character,alaska,smug][delay,1]* I'm here to party and\n  make bad decisions.[beat_1]";
+global.msg_esp[0] = "[character,alaska,happy][delay,1]* ¿Estáis listas para\n  destrozar ese sitio\n  esta noche?[/page]";
+global.msg_esp[1] = "[character,destiny,smug][delay,1]* ¿Más de como ya\n  lo está?[/page]";
+global.msg_esp[2] = "[character,destiny,smug][delay,1]* Creo que el tío\n  muerto ya lo ha\n  arruinado suficiente.[/page]";
+global.msg_esp[3] = "[character,alaska,hyped][delay,1]* ¿¡ESTÁIS LISTAS PARA LA\n  FORMAR UN JALEO?![/page]";
+global.msg_esp[4] = "[character,kaitlyn,ugh][delay,1]* No si vas a\n  actuar así.[/page]";
+global.msg_esp[5] = "[character,alaska,smug][delay,1]* Pues mejor que te\n  vayas acostumbrando.[/page]";
+global.msg_esp[6] = "[character,alaska,smug][delay,1]* Estoy aquí por la\n  fiesta y el tomar\n  malas decisiones.[beat_1]";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

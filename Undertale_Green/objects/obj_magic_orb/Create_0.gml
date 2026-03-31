@@ -1,0 +1,13 @@
+audio_play_sound(snd_spearappear, 1, false);
+image_speed = 0.25;
+alarm[0] = 25;
+fadein = true;
+image_alpha = 0;
+siner = 0;
+obj_enemy_soldier.liftarms = true;
+orb_speed = 6;
+follow_x = array_create(22, 320);
+follow_y = array_create(22, 320);
+follow_player = false;
+damage = 3;
+depth = -9999;

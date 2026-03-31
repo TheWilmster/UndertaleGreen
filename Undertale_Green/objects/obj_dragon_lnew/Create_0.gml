@@ -1,0 +1,16 @@
+depth = -9998;
+randomize();
+damage = 4;
+siner = 0;
+fire = false;
+firing = false;
+y_scale = 1;
+shake_x = 0;
+shake = false;
+dualfire = false;
+come_out = false;
+image_speed = 0;
+alarm_set(0, 30);
+sequence = 0;
+pattern = choose(0, 1);
+shot_x = 0;

@@ -1,0 +1,11 @@
+global.msg[0] = "[character,none,-1][delay,1]* Hey.[/page]";
+global.msg[1] = "[character,none,-1][delay,1]* Hello?[delay,333] I'm talking to you.[/page]";
+global.msg[2] = "[character,none,-1][delay,1]* ...You didn't see me?[delay,333] Yeah,[delay,333]\n  not many people do.[/page]";
+global.msg[3] = "[character,none,-1][delay,1]* (You ask her what she's looking\n  for.)[/page]";
+global.msg[4] = "[character,none,-1][delay,1]* What a question.[delay,333] If I knew\n  what I was looking for,[delay,333] I\n  woulda already found it.";
+global.msg_esp[0] = "[character,none,-1][delay,1]* ...[/page]";
+global.msg_esp[1] = "[character,none,-1][delay,1]* ¿Hola?[delay,333] Te estoy hablando.[/page]";
+global.msg_esp[2] = "[character,none,-1][delay,1]* ¿...No me has vistp?[delay,333] Ya...[delay,333]\n  pocos lo hacen.[/page]";
+global.msg_esp[3] = "[character,none,-1][delay,1]* (Le preguntas que qué está\n  buscando.)[/page]";
+global.msg_esp[4] = "[character,none,-1][delay,1]* Vaya pregunta.[delay,333] Si supiera\n  lo que estoy buscando,[delay,333] ya\n  lo hubiera encontrado.";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

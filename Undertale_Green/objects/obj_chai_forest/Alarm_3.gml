@@ -1,0 +1,13 @@
+global.msg[0] = "[character,chai,neutral][delay,1]* Look,[freeze][delay,333][continue] I'm not really a\n  touchy-feely kinda\n  person.[/page]";
+global.msg[1] = "[character,chai,neutral][delay,1]* But I know you are.[/page]";
+global.msg[2] = "[character,chai,neutral][delay,1]* So...[/page]";
+global.msg[3] = "[character,chai,neutral][delay,1]* I care about you,[freeze][delay,333][continue]\n  alright?[/page]";
+global.msg[4] = "[character,chai,neutral][delay,1]* Please don't wander\n  into a haunted murder\n  forest again.[/page]";
+global.msg[5] = "[character,chai,neutral][delay,1]* Nearly killed me too.[hug]";
+global.msg_esp[0] = "[character,chai,neutral][delay,1]* Mira,[freeze][delay,333][continue] No soy una\n  persona especialmente\n  sensible.[/page]";
+global.msg_esp[1] = "[character,chai,neutral][delay,1]* Pero sé que tú\n  sí.[/page]";
+global.msg_esp[2] = "[character,chai,neutral][delay,1]* Con lo que...[/page]";
+global.msg_esp[3] = "[character,chai,neutral][delay,1]* Me importas,[freeze][delay,333][continue]\n  ¿vale?[/page]";
+global.msg_esp[4] = "[character,chai,neutral][delay,1]* Por favor no te\n  metas en un bosque\n  tenebroso de la...[/page]";
+global.msg_esp[5] = "[character,chai,neutral][delay,1]* ...Muerte.[freeze][delay,333][continue]\n  * Casi me matas a\n  mí también.[hug]";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

@@ -1,0 +1,8 @@
+if (global.fun <= 40 || global.fun > 50)
+	instance_destroy();
+if (global.school_time_sequence != 3)
+	instance_destroy();
+image_blend = merge_color(c_black, #1E312F, 0.6);
+depth = obj_bsscreen2.depth - 1;
+progress = -1;
+timer = -1;

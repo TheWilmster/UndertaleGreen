@@ -1,0 +1,14 @@
+global.msg[0] = "[character,eden,happysleep][owsprite,edengray,2][delay,1]* Hello Olive![/page]";
+global.msg[1] = "[character,eden,happysleep][delay,1]* I never got to ask,[freeze][delay,333][continue]\n  what are you doing\n  with Kaitlyn?[/page]";
+global.msg[2] = "[character,eden,scaredcontrol][owsprite,edengray,0][delay,1]* ...An abandoned\n  building?[/page]";
+global.msg[3] = "[character,eden,scaredcontrol][delay,1]* Are you talking about\n  that place off\n  Sunderland?[/page]";
+global.msg[4] = "[character,gray,bhhappy][owsprite,edengray,5][delay,1]* Middlewater Paper?[/page]";
+global.msg[5] = "[character,eden,scaredcontrol][delay,1]* Are you serious?[/page]";
+global.msg[6] = "[character,gray,bhsmug][delay,1]* Didn't someone like,[freeze][delay,333][continue]\n  just die over there?[/page]";
+global.msg[7] = "[character,eden,scaredcontrol][delay,1]* Gray![freeze][delay,333][continue]\n* Don't listen to him,[freeze][delay,333][continue]\n  Olive.[/page]";
+global.msg[8] = "[character,eden,bedangry][owsprite,edengray,0][delay,1]* I do however have\n  some choice words for\n  Kaitlyn.[/page]";
+global.msg[9] = "[character,gray,bhsmug][delay,1]* Can I go talk to her?[/page]";
+global.msg[10] = "[character,gray,bhsmugl][owsprite,edengray,6][delay,1]* See how I'm asking?[/page]";
+global.msg[11] = "[character,eden,neu][owsprite,edengray,0][delay,1]* ...Okay.[/page]";
+global.msg[12] = "[character,eden,neu][delay,1]* (Let's just wait until\n  Olive leaves,[freeze][delay,333][continue] alright?)";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

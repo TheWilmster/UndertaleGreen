@@ -1,0 +1,13 @@
+global.talking = self;
+global.msg[0] = "[character,none,-1][delay,1]* Hello there sonny.[/page]";
+global.msg[1] = "[character,none,-1][delay,1]* (You ask him what he's doing\n  here.)[/page]";
+global.msg[2] = "[character,none,-1][delay,1]* Maybe I'm not quite sure\n  myself.[/page]";
+global.msg[3] = "[character,none,-1][delay,1]* Funny how that works.[/page]";
+global.msg[4] = "[character,none,-1][delay,1]* Sometimes you look around\n  and remember you forgot how\n  you ended up there.[/page]";
+global.msg[5] = "[character,none,-1][delay,1]* Maybe the person who got you\n  there is gone?[/page]";
+global.msg[6] = "[character,none,-1][delay,1]* Or maybe you remember so much\n  that you forgot where you\n  are now.[/page]";
+global.msg[7] = "[character,none,-1][delay,1]* ...[freeze][delay,333][continue]Maybe I'm losing it.[freeze][delay,333][continue]\n* Things start to slip away\n  when you're older.[/page]";
+global.msg[8] = "[character,none,-1][delay,1]* Or maybe they get more clear?[/page]";
+global.msg[9] = "[character,none,-1][delay,1]* Hopefully when things slip\n  away,[freeze][delay,333][continue] you don't slip with 'em.[/page]";
+global.msg[10] = "[character,none,-1][delay,1]* Either way,[freeze][delay,333][continue] maybe you should\n  deal with that thing behind\n  you first.";
+instance_create_depth(x, y, -1000, obj_textboxNEW);

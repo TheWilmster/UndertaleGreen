@@ -1,0 +1,7 @@
+image_speed = 0;
+if (global.school_time_sequence != 1)
+	instance_destroy(self);
+depth = -bbox_bottom;
+progress = -1;
+timer = -1;
+image_blend = c_gray;

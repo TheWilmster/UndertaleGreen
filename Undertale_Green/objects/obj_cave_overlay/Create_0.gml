@@ -1,0 +1,14 @@
+image_speed = 0;
+depth = -11000;
+present = false;
+light = false;
+fadeout = false;
+fadein = false;
+godark = false;
+treefall = false;
+trip = false;
+flashlight = false;
+pullup = false;
+skycleaver = false;
+runshake = false;
+shakestep = 0;

@@ -1,0 +1,17 @@
+gem_spawn_x = 0;
+prev_spawn_x = 0;
+gems_spawned = 0;
+shake = false;
+image_alpha = 0;
+vspeed = -2;
+image_speed = 0;
+alarm[0] = 30;
+alarm[1] = 80;
+alarm[3] = 200;
+alarm[4] = 230;
+alarm[5] = 220;
+fadein = true;
+siner = 0;
+gemspawn = false;
+gemrain = false;
+fadeout = false;

@@ -1,0 +1,10 @@
+depth = -999999;
+image_alpha = 1;
+fadeout = false;
+fadein = false;
+beat_1 = false;
+officeparking = false;
+alarm[0] = 80;
+alarm[1] = 180;
+alarm[3] = 20;
+audio_play_sound(snd_car_start, 1, false);
