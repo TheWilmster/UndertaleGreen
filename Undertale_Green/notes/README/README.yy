@@ -2,6 +2,7 @@
   "$GMNotes":"v1",
   "%Name":"README",
   "name":"README",
+  "openedOnFirstLoad":true,
   "parent":{
     "name":"Notes",
     "path":"folders/Notes.yy",

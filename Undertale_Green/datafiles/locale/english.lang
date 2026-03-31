@@ -1,0 +1,7 @@
+LanguageName="English"
+InternalName="eng"
+Version="1.0.0"
+
+[Main Menu]
+menuStart="Start Game poop"
+menuSettings="Settings"

@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_determination_esp",
+  "%Name":"fnt_plain_esp",
   "AntiAlias":0,
   "applyKerning":0,
   "ascender":9,
@@ -190,10 +190,10 @@
   "last":9647,
   "lineHeight":12,
   "maintainGms1Font":false,
-  "name":"fnt_determination_esp",
+  "name":"fnt_plain_esp",
   "parent":{
-    "name":"Textbox",
-    "path":"folders/Fonts/Textbox.yy",
+    "name":"Battle",
+    "path":"folders/Fonts/Battle.yy",
   },
   "pointRounding":0,
   "ranges":[
