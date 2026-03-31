@@ -5,7 +5,7 @@
  - "Crypt of Tomorrow" Font
  - "Hachicro" Font
  - "Mars Needs Cunnilingus" Font
- - "Undertale Dotumche" Font (Cannot be the original Dotumche font)
+ - "DotumCheUT" Font (https://github.com/TML233/UndertaleEngine/blob/master/datafiles/locale/english/font/dotumche.ttf)
  - "Determination Mono Web" Font
  - "Determination Mono" Font
 
