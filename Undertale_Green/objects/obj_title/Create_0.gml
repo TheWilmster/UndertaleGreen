@@ -1,5 +1,3 @@
-locale_init();
-
 window_scale = 0;
 global.gui_width = 640;
 global.gui_height = 480;
