@@ -45,7 +45,7 @@
     {"name":"Voices","order":127,"path":"folders/Sounds/Sounds/Voices.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"fnt_crypt","order":5,"path":"fonts/fnt_crypt/fnt_crypt.yy",},
+    {"name":"fnt_crypt","order":7,"path":"fonts/fnt_crypt/fnt_crypt.yy",},
     {"name":"fnt_determination_esp","order":1,"path":"fonts/fnt_determination_esp/fnt_determination_esp.yy",},
     {"name":"fnt_hachicro","order":6,"path":"fonts/fnt_hachicro/fnt_hachicro.yy",},
     {"name":"fnt_mars","order":1,"path":"fonts/fnt_mars/fnt_mars.yy",},
