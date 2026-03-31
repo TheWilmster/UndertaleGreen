@@ -8,7 +8,6 @@
  - "Undertale Dotumche" Font (Cannot be the original Dotumche font)
  - "Determination Mono Web" Font
  - "Determination Mono" Font
- - 
 
 ### Credits
  - TheWilmster (I made the decompile, woohoo!)
