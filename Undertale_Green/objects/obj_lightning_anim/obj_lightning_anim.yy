@@ -11,8 +11,8 @@
   "name":"obj_lightning_anim",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Attacks",
+    "path":"folders/Objects/Battle System/Attacks.yy",
   },
   "parentObjectId":null,
   "persistent":false,

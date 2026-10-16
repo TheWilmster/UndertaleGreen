@@ -14,8 +14,8 @@
   "name":"obj_destiny_greenroom",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Destiny",
+    "path":"folders/Objects/Cutscenes & Overworld/NPCs & Actors/Destiny.yy",
   },
   "parentObjectId":null,
   "persistent":false,

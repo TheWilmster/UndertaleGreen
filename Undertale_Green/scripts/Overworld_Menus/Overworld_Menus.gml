@@ -47,65 +47,65 @@ function item_effect()
 	switch (argument0)
 	{
 		case 0:
-			global.msg[0] = "[character,none,-1][delay,1]* The thing feels wealthy.";
+			DIALOG[0] = "[character,none,-1][delay,1]* The thing feels wealthy.";
 			global.money += 99999999;
 			break;
 		case 1:
-			global.msg[0] = "[character,none,-1][delay,1]* Suddenly you have a toothache.";
+			DIALOG[0] = "[character,none,-1][delay,1]* Suddenly you have a toothache.";
 			audio_play_sound(snd_heal, 1, false);
 			global.hp = min(global.hp + 10, 20);
 			break;
 		case 2:
 			if (global.deliverable == false)
-				global.msg[0] = "[character,none,-1][delay,1]* (This item needs to be scanned\n  somewhere.)";
+				DIALOG[0] = "[character,none,-1][delay,1]* (This item needs to be scanned\n  somewhere.)";
 			if (global.deliverable == true)
-				global.msg[0] = "[character,none,-1][delay,1]* (You scan the Keycard.)";
+				DIALOG[0] = "[character,none,-1][delay,1]* (You scan the Keycard.)";
 			break;
 		case 3:
 			if (global.deliverable == false)
-				global.msg[0] = "[character,none,-1][delay,1]* (You should probably find its\n  owner.)";
+				DIALOG[0] = "[character,none,-1][delay,1]* (You should probably find its\n  owner.)";
 			if (global.deliverable == true)
-				global.msg[0] = "[character,none,-1][delay,1]* (You scan the Keycard.)";
+				DIALOG[0] = "[character,none,-1][delay,1]* (You scan the Keycard.)";
 			if (room == rm_battle)
 			{
-				global.msg[0] = "[character,none,-1][delay,1]* (You put on the Yeti Helmet.)[/page]";
-				global.msg[1] = "[character,none,-1][delay,1][victory]* (Congrats!)[delay,333]\n* (It didn't do anything!)[/page]";
-				global.msg[2] = "[character,none,-1][delay,1]* (...[delay,333]You took the Yeti Helmet\n  off.)";
+				DIALOG[0] = "[character,none,-1][delay,1]* (You put on the Yeti Helmet.)[/page]";
+				DIALOG[1] = "[character,none,-1][delay,1][victory]* (Congrats!)[delay,333]\n* (It didn't do anything!)[/page]";
+				DIALOG[2] = "[character,none,-1][delay,1]* (...[delay,333]You took the Yeti Helmet\n  off.)";
 			}
 			break;
 		case 4:
-			global.msg[0] = "[character,none,-1][delay,1]* You eat the Blueberries.[delay,333]\n* They're sour.";
+			DIALOG[0] = "[character,none,-1][delay,1]* You eat the Blueberries.[delay,333]\n* They're sour.";
 			audio_play_sound(snd_heal, 1, false);
 			global.hp = min(global.hp + 6, 20);
 			break;
 		case 5:
-			global.msg[0] = "[character,none,-1][delay,1]* You eat the Raisinettes.[delay,333]\n* They taste exactly how you\n  expected them to.";
+			DIALOG[0] = "[character,none,-1][delay,1]* You eat the Raisinettes.[delay,333]\n* They taste exactly how you\n  expected them to.";
 			audio_play_sound(snd_heal, 1, false);
 			global.hp = min(global.hp + 6, 20);
 			break;
 		case 6:
-			global.msg[0] = "[character,none,-1][delay,1]* You eat the Chocolate Muffin.[delay,333]\n* The texture was very\n  vending-machine-like.";
+			DIALOG[0] = "[character,none,-1][delay,1]* You eat the Chocolate Muffin.[delay,333]\n* The texture was very\n  vending-machine-like.";
 			audio_play_sound(snd_heal, 1, false);
 			global.hp = min(global.hp + 15, 20);
 			break;
 		case 7:
 			if (global.deliverable == false)
-				global.msg[0] = "[character,none,-1][delay,1]* (Maybe it can unlock something.)";
+				DIALOG[0] = "[character,none,-1][delay,1]* (Maybe it can unlock something.)";
 			if (room == rm_battle)
 			{
-				global.msg[0] = "[character,none,-1][delay,1]* (You feel the keys in your\n  pocket.)[/page]";
-				global.msg[1] = "[character,none,-1][delay,1]* (You can't help but feel like\n  you're missing something...)[/page]";
-				global.msg[2] = "[character,none,-1][delay,1]* (Suddenly,[delay,333] you feel\n  disappointed.)";
+				DIALOG[0] = "[character,none,-1][delay,1]* (You feel the keys in your\n  pocket.)[/page]";
+				DIALOG[1] = "[character,none,-1][delay,1]* (You can't help but feel like\n  you're missing something...)[/page]";
+				DIALOG[2] = "[character,none,-1][delay,1]* (Suddenly,[delay,333] you feel\n  disappointed.)";
 			}
 			break;
 		case 8:
 			if (global.deliverable == false)
-				global.msg[0] = "[character,none,-1][delay,1]* (You should find a way to\n  get it back to her.)";
+				DIALOG[0] = "[character,none,-1][delay,1]* (You should find a way to\n  get it back to her.)";
 			if (room == rm_battle)
 			{
-				global.msg[0] = "[character,none,-1][delay,1]* (You feel the Necklace in\n  your pocket.)[/page]";
-				global.msg[1] = "[character,none,-1][delay,1]* (You can't help but feel like\n  you're missing something...)[/page]";
-				global.msg[2] = "[character,none,-1][delay,1]* (Maybe you should look around\n  more.)";
+				DIALOG[0] = "[character,none,-1][delay,1]* (You feel the Necklace in\n  your pocket.)[/page]";
+				DIALOG[1] = "[character,none,-1][delay,1]* (You can't help but feel like\n  you're missing something...)[/page]";
+				DIALOG[2] = "[character,none,-1][delay,1]* (Maybe you should look around\n  more.)";
 			}
 			break;
 	}

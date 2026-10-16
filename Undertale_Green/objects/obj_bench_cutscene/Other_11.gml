@@ -7,7 +7,7 @@ if (obj_textboxNEW.choice == 0)
 }
 else
 {
-	global.msg[0] = "[character,none,-1][delay,1]* ...[delay,333]Maybe later.";
-	global.msg_esp[0] = "[character,none,-1][delay,1]* ...[delay,333]A lo mejor después.";
+	DIALOG[0] = "[character,none,-1][delay,1]* ...[delay,333]Maybe later.";
+	DIALOG_ESP[0] = "[character,none,-1][delay,1]* ...[delay,333]A lo mejor después.";
 }
-show_debug_message(global.msg);
+show_debug_message(DIALOG);

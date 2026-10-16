@@ -1,7 +1,7 @@
 function globals()
 {
-	global.msg = [];
-	global.msg_esp = [];
+	DIALOG = [];
+	DIALOG_ESP = [];
 	global.fun = irandom_range(1, 100);
 	global.game_time = 0;
 	global.last_save_time = 0;

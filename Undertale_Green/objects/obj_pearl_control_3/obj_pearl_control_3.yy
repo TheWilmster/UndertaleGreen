@@ -12,8 +12,8 @@
   "name":"obj_pearl_control_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Attacks",
+    "path":"folders/Objects/Battle System/Attacks.yy",
   },
   "parentObjectId":{
     "name":"par_bullet",

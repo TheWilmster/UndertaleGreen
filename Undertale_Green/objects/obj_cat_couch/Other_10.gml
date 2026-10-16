@@ -2,8 +2,8 @@ randomize();
 rnd_noise = choose(1, 2, 3, 4);
 if (global.second_dia[16] == 0)
 {
-	global.msg[0] = "[character,none,-1][delay,1]* There's a cat on this couch.[/page]";
-	global.msg[1] = "[character,none,-1][delay,1]* Pet it?[choice]";
+	DIALOG[0] = "[character,none,-1][delay,1]* There's a cat on this couch.[/page]";
+	DIALOG[1] = "[character,none,-1][delay,1]* Pet it?[choice]";
 	global.choices[0] = "[character,none,-1]\nYes";
 	global.choices[1] = "[character,none,-1]\nNo";
 	instance_create_depth(x, y, -1000, obj_textboxNEW);

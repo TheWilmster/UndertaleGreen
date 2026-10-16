@@ -8,8 +8,8 @@
   "name":"obj_switch",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Interactables",
+    "path":"folders/Objects/Cutscenes & Overworld/Interactables.yy",
   },
   "parentObjectId":null,
   "persistent":false,

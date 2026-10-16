@@ -10,8 +10,8 @@
   "name":"obj_destiny_fb",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Destiny",
+    "path":"folders/Objects/Cutscenes & Overworld/NPCs & Actors/Destiny.yy",
   },
   "parentObjectId":{
     "name":"par_NPC",

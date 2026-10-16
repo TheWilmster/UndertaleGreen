@@ -6,6 +6,6 @@ if (fadein == true)
 		global.forest_cutscene = 2;
 		room_goto(rm_spookyforest);
 		instance_destroy(obj_textboxNEW);
-		global.msg = [];
+		DIALOG = [];
 	}
 }

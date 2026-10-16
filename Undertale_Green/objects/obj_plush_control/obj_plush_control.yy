@@ -11,8 +11,8 @@
   "name":"obj_plush_control",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Triggers",
+    "path":"folders/Objects/Cutscenes & Overworld/Triggers.yy",
   },
   "parentObjectId":{
     "name":"par_bullet",

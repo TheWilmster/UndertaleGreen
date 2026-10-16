@@ -9,8 +9,8 @@
   "name":"obj_timpani_hit4",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Interactables",
+    "path":"folders/Objects/Cutscenes & Overworld/Interactables.yy",
   },
   "parentObjectId":null,
   "persistent":false,

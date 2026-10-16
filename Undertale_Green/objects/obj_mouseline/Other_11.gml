@@ -6,6 +6,6 @@ if (obj_textboxNEW.choice == 0)
 }
 else
 {
-	global.msg[0] = "[character,none,-1]* (Maybe another time.)";
-	global.msg_esp[0] = "[character,none,-1]* (A lo mejor más tarde.)";
+	DIALOG[0] = "[character,none,-1]* (Maybe another time.)";
+	DIALOG_ESP[0] = "[character,none,-1]* (A lo mejor más tarde.)";
 }

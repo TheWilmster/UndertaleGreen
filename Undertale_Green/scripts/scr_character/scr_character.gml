@@ -33,7 +33,7 @@ function scr_character(arg0, arg1)
 		case "uni":
 			face_image = -1;
 			global.sound = snd_eye;
-			unifont = __scribble_font_add_sprite_ext(spr_Unifont, "ABCDEFGHIJKLMNOPQRSTUVWXYZ,.!?*'", true, 0);
+			unifont = font_add_sprite_ext(spr_Unifont, "ABCDEFGHIJKLMNOPQRSTUVWXYZ,.!?*'", true, 0);
 			if (instance_exists(obj_textboxNEW))
 				obj_textboxNEW.s.starting_format(font_get_name(unifont), c_white);
 			break;

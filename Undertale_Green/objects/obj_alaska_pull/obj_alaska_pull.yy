@@ -16,8 +16,8 @@
   "name":"obj_alaska_pull",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Alaska",
+    "path":"folders/Objects/Cutscenes & Overworld/NPCs & Actors/Alaska.yy",
   },
   "parentObjectId":null,
   "persistent":false,

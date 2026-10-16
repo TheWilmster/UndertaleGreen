@@ -20,8 +20,8 @@ if (turn == BattleTurn.NONE)
 		{
 			if (!instance_exists(obj_battle_text))
 			{
-				global.msg[0] = global.battle_start_msg;
-				global.msg_esp[0] = global.battle_start_msg_esp;
+				DIALOG[0] = global.battle_start_msg;
+				DIALOG_ESP[0] = global.battle_start_msg_esp;
 				instance_create_depth(x, y, -1, obj_battle_text);
 			}
 			par_button.is_active = false;
@@ -123,8 +123,8 @@ if (turn == BattleTurn.NONE)
 		{
 			if (!instance_exists(obj_battle_text))
 			{
-				global.msg[0] = global.battle_start_msg;
-				global.msg_esp[0] = global.battle_start_msg_esp;
+				DIALOG[0] = global.battle_start_msg;
+				DIALOG_ESP[0] = global.battle_start_msg_esp;
 				instance_create_depth(x, y, -1, obj_battle_text);
 			}
 			par_button.is_active = false;
@@ -396,8 +396,8 @@ if (turn == BattleTurn.NONE)
 		if (!instance_exists(obj_battle_text) && global.battle_plush == false)
 		{
 			global.battle_prompt = 1;
-			global.msg[0] = "* Are you sure you want to\n  flee?[choice]";
-			global.msg_esp[0] = "* ¿Estás seguro?[choice]";
+			DIALOG[0] = "* Are you sure you want to\n  flee?[choice]";
+			DIALOG_ESP[0] = "* ¿Estás seguro?[choice]";
 			global.choices_esp[0] = "\nYes";
 			global.choices_esp[1] = "\nNo";
 			global.choices_esp[0] = "\nSí";
@@ -407,15 +407,15 @@ if (turn == BattleTurn.NONE)
 		if (!instance_exists(obj_battle_text) && global.battle_plush == true)
 		{
 			if (obj_enemy_plush.prev_choice == 0)
-				global.msg[0] = "* (You called for Eden.)[delay,333]\n* (She didn't hear you.)";
+				DIALOG[0] = "* (You called for Eden.)[delay,333]\n* (She didn't hear you.)";
 			if (obj_enemy_plush.prev_choice == 1)
-				global.msg[0] = "* (You yelled louder.)[delay,333]\n* (But nothing happened.)";
+				DIALOG[0] = "* (You yelled louder.)[delay,333]\n* (But nothing happened.)";
 			if (obj_enemy_plush.prev_choice == 2)
-				global.msg[0] = "* (You screamed Eden's name.)";
+				DIALOG[0] = "* (You screamed Eden's name.)";
 			if (obj_enemy_plush.prev_choice == 3)
-				global.msg[0] = "* (You screamed louder.)";
+				DIALOG[0] = "* (You screamed louder.)";
 			if (obj_enemy_plush.prev_choice == 4)
-				global.msg[0] = "[unskip][slowtext]* (You screamed Eden's name\n  once more...)[delay,500][plush_end]";
+				DIALOG[0] = "[unskip][slowtext]* (You screamed Eden's name\n  once more...)[delay,500][plush_end]";
 			global.plush_flee_attempt = 1;
 			instance_create_depth(x, y, -1, obj_battle_text);
 		}
@@ -429,13 +429,13 @@ if (turn == BattleTurn.NONE)
 		{
 			if (global.battle_hashealed == false)
 			{
-				global.msg[0] = "* Heal yourself?[choice]";
-				global.msg_esp[0] = "* ¿Estás seguro?[choice]";
+				DIALOG[0] = "* Heal yourself?[choice]";
+				DIALOG_ESP[0] = "* ¿Estás seguro?[choice]";
 			}
 			else
 			{
-				global.msg[0] = "* Heal yourself?[delay,333] (1.5X enemy ATK\n  increase next turn)[choice]";
-				global.msg_esp[0] = "* ¿Estás seguro?[choice]";
+				DIALOG[0] = "* Heal yourself?[delay,333] (1.5X enemy ATK\n  increase next turn)[choice]";
+				DIALOG_ESP[0] = "* ¿Estás seguro?[choice]";
 			}
 			global.choices_esp[0] = "\nYes";
 			global.choices_esp[1] = "\nNo";

@@ -68,14 +68,14 @@ if (is_choice == true)
 		}
 		if (confirm)
 		{
-			global.msg = [];
+			DIALOG = [];
 			audio_play_sound(snd_select, 1, false);
 			with (global.choice_object)
 			{
 				event_user(1);
 				global.choice_object = -4;
 			}
-			m = string_concat_ext(global.msg);
+			m = string_concat_ext(DIALOG);
 			s = scribble(m);
 			s.scale(2);
 			s.starting_format("fnt_determination", c_white);

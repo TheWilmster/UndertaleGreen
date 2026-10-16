@@ -9,8 +9,8 @@
   "name":"obj_backstage_warp_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Warps",
+    "path":"folders/Objects/Warps.yy",
   },
   "parentObjectId":null,
   "persistent":false,

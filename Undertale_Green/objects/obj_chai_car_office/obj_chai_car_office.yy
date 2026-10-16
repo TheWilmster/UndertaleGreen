@@ -10,8 +10,8 @@
   "name":"obj_chai_car_office",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Car",
+    "path":"folders/Objects/Cutscenes & Overworld/NPCs & Actors/Chai/Car.yy",
   },
   "parentObjectId":{
     "name":"par_NPC",

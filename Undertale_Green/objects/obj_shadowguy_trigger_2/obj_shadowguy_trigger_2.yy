@@ -9,8 +9,8 @@
   "name":"obj_shadowguy_trigger_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Triggers",
+    "path":"folders/Objects/Cutscenes & Overworld/Triggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

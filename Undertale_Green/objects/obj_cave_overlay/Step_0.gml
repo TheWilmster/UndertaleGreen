@@ -61,7 +61,7 @@ if (present == true && !instance_exists(obj_textboxNEW))
 	global.forest_cutscene = 2;
 	room_goto(rm_spookyforest);
 	instance_destroy(obj_textboxNEW);
-	global.msg = [];
+	DIALOG = [];
 }
 if (runshake == true)
 {

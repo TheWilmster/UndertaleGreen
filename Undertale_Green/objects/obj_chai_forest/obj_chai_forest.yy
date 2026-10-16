@@ -17,8 +17,8 @@
   "name":"obj_chai_forest",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Chai",
+    "path":"folders/Objects/Cutscenes & Overworld/NPCs & Actors/Chai.yy",
   },
   "parentObjectId":null,
   "persistent":false,

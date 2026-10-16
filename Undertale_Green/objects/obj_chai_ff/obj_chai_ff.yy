@@ -9,8 +9,8 @@
   "name":"obj_chai_ff",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Chai",
+    "path":"folders/Objects/Cutscenes & Overworld/NPCs & Actors/Chai.yy",
   },
   "parentObjectId":{
     "name":"par_NPC",

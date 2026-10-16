@@ -8,8 +8,8 @@
   "name":"obj_border_l",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Battle Box",
+    "path":"folders/Objects/Battle System/Battle Box.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -22,8 +22,8 @@ if (global.bathroom_order == 0 || global.bathroom_order == 1)
 		}
 		else
 		{
-			global.msg[0] = "[character,none,-1]* Not bad![delay,333] It had a nice ring\n  to it.";
-			global.msg_esp[0] = "[character,none,-1]* ¡Nada mal![delay,333] Te gusta su\n  sonoridad.";
+			DIALOG[0] = "[character,none,-1]* Not bad![delay,333] It had a nice ring\n  to it.";
+			DIALOG_ESP[0] = "[character,none,-1]* ¡Nada mal![delay,333] Te gusta su\n  sonoridad.";
 			if (!instance_exists(obj_textboxNEW))
 			{
 				audio_sound_gain(mus_art_center, 1, 100);
@@ -57,8 +57,8 @@ if (global.bathroom_order == 2)
 		}
 		else
 		{
-			global.msg[0] = "[character,none,-1]* Terrible...[delay,333] Whoever made this\n  door should be ashamed.";
-			global.msg_esp[0] = "[character,none,-1]* Terrible...[delay,333] Quien haya hecho\n  esta puerta debería\n  avergonzarse.";
+			DIALOG[0] = "[character,none,-1]* Terrible...[delay,333] Whoever made this\n  door should be ashamed.";
+			DIALOG_ESP[0] = "[character,none,-1]* Terrible...[delay,333] Quien haya hecho\n  esta puerta debería\n  avergonzarse.";
 			if (!instance_exists(obj_textboxNEW))
 			{
 				audio_sound_gain(mus_art_center, 1, 100);

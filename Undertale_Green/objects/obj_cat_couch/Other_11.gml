@@ -11,4 +11,4 @@ else
 	instance_destroy(obj_textboxNEW);
 	obj_player.curr_state = PlayerState.NORMAL;
 }
-show_debug_message(global.msg);
+show_debug_message(DIALOG);

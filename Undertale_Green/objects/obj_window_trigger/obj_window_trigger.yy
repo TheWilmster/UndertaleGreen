@@ -10,8 +10,8 @@
   "name":"obj_window_trigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Triggers",
+    "path":"folders/Objects/Cutscenes & Overworld/Triggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

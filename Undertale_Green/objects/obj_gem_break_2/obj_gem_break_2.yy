@@ -14,8 +14,8 @@
   "name":"obj_gem_break_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Attacks",
+    "path":"folders/Objects/Battle System/Attacks.yy",
   },
   "parentObjectId":{
     "name":"par_bullet",

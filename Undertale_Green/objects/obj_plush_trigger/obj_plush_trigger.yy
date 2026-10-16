@@ -11,8 +11,8 @@
   "name":"obj_plush_trigger",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Triggers",
+    "path":"folders/Objects/Cutscenes & Overworld/Triggers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

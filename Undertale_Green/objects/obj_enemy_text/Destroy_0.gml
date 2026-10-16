@@ -1,3 +1,3 @@
-global.msg = [];
-global.msg_esp = [];
+DIALOG = [];
+DIALOG_ESP = [];
 p = 0;

@@ -6,8 +6,8 @@
   "name":"obj_chai_car_rain",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Car",
+    "path":"folders/Objects/Cutscenes & Overworld/NPCs & Actors/Chai/Car.yy",
   },
   "parentObjectId":null,
   "persistent":false,

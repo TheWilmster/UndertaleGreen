@@ -33,3 +33,6 @@ enum ShopMenu {
     TALK     = 2,
     EXIT     = 3
 }
+
+#macro DIALOG global.msg
+#macro DIALOG_ESP global.msg_esp

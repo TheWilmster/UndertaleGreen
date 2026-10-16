@@ -1,7 +1,7 @@
 if (global.language == 0)
-	m = string_concat_ext(global.msg);
+	m = string_concat_ext(DIALOG);
 else if (global.language == 1)
-	m = string_concat_ext(global.msg_esp);
+	m = string_concat_ext(DIALOG_ESP);
 if (instance_exists(obj_enemy_eden))
 {
 	if (global.random_atk == true && obj_battle_system.turn == BattleTurn.ENEMY && obj_enemy_eden.hp > 0)

@@ -47,16 +47,16 @@ if (is_choice == true)
 				audio_play_sound(snd_select, 1, false);
 				if (global.battle_gray == true)
 				{
-					global.msg[0] = " ";
-					global.msg_esp[0] = " ";
+					DIALOG[0] = " ";
+					DIALOG_ESP[0] = " ";
 					audio_stop_sound(mus_knight_gray);
 					global.battle_gray = false;
 					start_play_music();
 				}
 				else if (global.battle_eden == true)
 				{
-					global.msg[0] = " ";
-					global.msg_esp[0] = " ";
+					DIALOG[0] = " ";
+					DIALOG_ESP[0] = " ";
 					audio_stop_sound(mus_pawn_eden);
 					audio_stop_sound(mus_pawn_eden_intro);
 					global.battle_eden = false;
@@ -64,8 +64,8 @@ if (is_choice == true)
 				}
 				else if (global.battle_chai == true)
 				{
-					global.msg[0] = " ";
-					global.msg_esp[0] = " ";
+					DIALOG[0] = " ";
+					DIALOG_ESP[0] = " ";
 					audio_stop_sound(mus_queen_chai);
 					global.battle_chai = false;
 				}
@@ -95,9 +95,9 @@ if (is_choice == true)
 			if (choice == 0)
 			{
 				if (global.language == 0)
-					global.msg = [];
+					DIALOG = [];
 				if (global.language == 1)
-					global.msg_esp = [];
+					DIALOG_ESP = [];
 				audio_play_sound(snd_select, 1, false);
 				if (global.battle_hashealed == false)
 				{
@@ -106,22 +106,22 @@ if (is_choice == true)
 					global.hp = min(global.hp + 10, 20);
 					global.battle_hashealed = true;
 					obj_battle_system.damage_multiplier = 1.5;
-					global.msg[0] = "* You healed 10 HP![/page]";
-					global.msg[1] = "* (...)[/page]";
-					global.msg[2] = "* [musiccut](...but is that really fair?)[/page]";
-					global.msg[3] = "* (Sure,[delay,333] you're a Bishop.)[/page]";
-					global.msg[4] = "* (You know little about them,[delay,333]\n  but you think it makes sense\n  that they could heal here.)[/page]";
-					global.msg[5] = "* (But what about your opponent?)[/page]";
-					global.msg[6] = "* (If you can just heal over and\n  over again,[delay,333] how is that fair\n  for them?)[/page]";
-					global.msg[7] = "* (Is any of this fair?)[delay,333]\n* (The theater of imagination is\n  limited only by thoughts.)[/page]";
-					global.msg[8] = "* (Is that not power unchecked?)[/page]";
-					global.msg[9] = "* (After all,[delay,333] this is an\n  entirely fictitious conflict.)[/page]";
-					global.msg[10] = "* (But is fiction not a\n  reflection of reality?)[/page]";
-					global.msg[11] = "* (How real that fiction is\n  comes down only to mindset.)[/page]";
-					global.msg[12] = "* (One could say the real\n  world is just people dealing\n  with the fictions of a few.)[/page]";
-					global.msg[13] = "* (...)[/page]";
-					global.msg[14] = "* (...you think if you took\n  more damage after you healed\n  that would probably be fair.)[/page]";
-					global.msg[15] = "[musiccont][victory]* Enemy attacks will deal 1.5X\n  damage next turn.";
+					DIALOG[0] = "* You healed 10 HP![/page]";
+					DIALOG[1] = "* (...)[/page]";
+					DIALOG[2] = "* [musiccut](...but is that really fair?)[/page]";
+					DIALOG[3] = "* (Sure,[delay,333] you're a Bishop.)[/page]";
+					DIALOG[4] = "* (You know little about them,[delay,333]\n  but you think it makes sense\n  that they could heal here.)[/page]";
+					DIALOG[5] = "* (But what about your opponent?)[/page]";
+					DIALOG[6] = "* (If you can just heal over and\n  over again,[delay,333] how is that fair\n  for them?)[/page]";
+					DIALOG[7] = "* (Is any of this fair?)[delay,333]\n* (The theater of imagination is\n  limited only by thoughts.)[/page]";
+					DIALOG[8] = "* (Is that not power unchecked?)[/page]";
+					DIALOG[9] = "* (After all,[delay,333] this is an\n  entirely fictitious conflict.)[/page]";
+					DIALOG[10] = "* (But is fiction not a\n  reflection of reality?)[/page]";
+					DIALOG[11] = "* (How real that fiction is\n  comes down only to mindset.)[/page]";
+					DIALOG[12] = "* (One could say the real\n  world is just people dealing\n  with the fictions of a few.)[/page]";
+					DIALOG[13] = "* (...)[/page]";
+					DIALOG[14] = "* (...you think if you took\n  more damage after you healed\n  that would probably be fair.)[/page]";
+					DIALOG[15] = "[musiccont][victory]* Enemy attacks will deal 1.5X\n  damage next turn.";
 				}
 				else
 				{
@@ -129,12 +129,12 @@ if (is_choice == true)
 					audio_play_sound(snd_heal, 1, false);
 					global.hp = min(global.hp + 10, 20);
 					obj_battle_system.damage_multiplier = 1.5;
-					global.msg[0] = "* You healed 10 HP.";
+					DIALOG[0] = "* You healed 10 HP.";
 				}
 				if (global.language == 0)
-					m = string_concat_ext(global.msg);
+					m = string_concat_ext(DIALOG);
 				if (global.language == 1)
-					m = string_concat_ext(global.msg_esp);
+					m = string_concat_ext(DIALOG_ESP);
 				s = scribble(m);
 				if (global.language == 0)
 					s.starting_format("fnt_determination", c_white);

@@ -8,4 +8,4 @@ else
 	progress = 2;
 	instance_destroy(obj_textboxNEW);
 }
-show_debug_message(global.msg);
+show_debug_message(DIALOG);

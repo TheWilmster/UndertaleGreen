@@ -9,8 +9,8 @@
   "name":"obj_director_auditorium",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Director",
+    "path":"folders/Objects/Cutscenes & Overworld/NPCs & Actors/Director.yy",
   },
   "parentObjectId":{
     "name":"par_NPC",

@@ -1,7 +1,7 @@
-global.msg[0] = "[character,none,-1][delay,1]* It's a nice-looking sink.[/page]";
-global.msg[1] = "[character,none,-1]* Turn it on?[choice]";
-global.msg_esp[0] = "[character,none,-1][delay,1]* Se ve bien este grifo.[/page]";
-global.msg_esp[1] = "[character,none,-1]* ¿Lo pones?[choice]";
+DIALOG[0] = "[character,none,-1][delay,1]* It's a nice-looking sink.[/page]";
+DIALOG[1] = "[character,none,-1]* Turn it on?[choice]";
+DIALOG_ESP[0] = "[character,none,-1][delay,1]* Se ve bien este grifo.[/page]";
+DIALOG_ESP[1] = "[character,none,-1]* ¿Lo pones?[choice]";
 global.choices[0] = "[character,none,-1]\nYes";
 global.choices[1] = "[character,none,-1]\nNo";
 global.choices_esp[0] = "[character,none,-1]\nSí";

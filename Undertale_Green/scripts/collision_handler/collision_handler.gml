@@ -4,6 +4,7 @@ function collision_handler()
 	var interact_r = collision_line(x + (sprite_width / 2), y + 18, x + (sprite_width + 4), y + 18, par_NPC, false, false);
 	var interact_u = collision_line(x + (sprite_width / 2), y + 18, x + (sprite_width / 2), y + 10, par_NPC, false, false);
 	var interact_l = collision_line(x + (sprite_width / 2), y + 18, x - 4, y + 18, par_NPC, false, false);
+    
 	if (place_meeting(x + 1, y, obj_SlopeDownRight) || place_meeting(x, y + 1, obj_SlopeDownRight))
 	{
 		x = xprevious;

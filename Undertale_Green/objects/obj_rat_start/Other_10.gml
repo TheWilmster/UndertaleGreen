@@ -1,9 +1,9 @@
 if (rat_came_out == true)
 {
-	global.msg[0] = "[character,none,-1]* This rat looks like it knows\n  its way around.[/page]";
-	global.msg[1] = "[character,none,-1]* Hop on its back?[choice]";
-	global.msg_esp[0] = "[character,none,-1]* Esta rata parece que sabe\n  como manejarse por aquí.[/page]";
-	global.msg_esp[1] = "[character,none,-1]* ¿Te montas encima?[choice]";
+	DIALOG[0] = "[character,none,-1]* This rat looks like it knows\n  its way around.[/page]";
+	DIALOG[1] = "[character,none,-1]* Hop on its back?[choice]";
+	DIALOG_ESP[0] = "[character,none,-1]* Esta rata parece que sabe\n  como manejarse por aquí.[/page]";
+	DIALOG_ESP[1] = "[character,none,-1]* ¿Te montas encima?[choice]";
 	global.choices[0] = "[character,none,-1]\nYes";
 	global.choices[1] = "[character,none,-1]\nNo";
 	global.choices_esp[0] = "[character,none,-1]\nSí";

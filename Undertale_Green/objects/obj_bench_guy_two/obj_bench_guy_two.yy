@@ -9,8 +9,8 @@
   "name":"obj_bench_guy_two",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"NPCs & Actors",
+    "path":"folders/Objects/Cutscenes & Overworld/NPCs & Actors.yy",
   },
   "parentObjectId":{
     "name":"par_NPC",

@@ -10,8 +10,8 @@
   "name":"obj_alaska_fb",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Alaska",
+    "path":"folders/Objects/Cutscenes & Overworld/NPCs & Actors/Alaska.yy",
   },
   "parentObjectId":{
     "name":"par_NPC",

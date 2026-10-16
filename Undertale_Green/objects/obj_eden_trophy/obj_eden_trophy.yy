@@ -8,8 +8,8 @@
   "name":"obj_eden_trophy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Spriteless",
+    "path":"folders/Objects/Cutscenes & Overworld/NPCs & Actors/Spriteless.yy",
   },
   "parentObjectId":{
     "name":"par_NPC",

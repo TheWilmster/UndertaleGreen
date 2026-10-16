@@ -1,5 +1,5 @@
 p = 0;
-m = string_concat_ext(global.msg);
+m = string_concat_ext(DIALOG);
 textspeed = 0.5;
 face_image = -1;
 face_x = 0;

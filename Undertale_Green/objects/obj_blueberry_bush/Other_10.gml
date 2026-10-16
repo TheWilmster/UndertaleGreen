@@ -1,7 +1,7 @@
-global.msg[0] = "[character,none,-1]* These blueberries look ripe.[/page]";
-global.msg[1] = "[character,none,-1]* Pick them up?[choice]";
-global.msg_esp[0] = "[character,none,-1]* Estos arándanos se ven\n  maduros.[/page]";
-global.msg_esp[1] = "[character,none,-1]* ¿Te los llevas?[choice]";
+DIALOG[0] = "[character,none,-1]* These blueberries look ripe.[/page]";
+DIALOG[1] = "[character,none,-1]* Pick them up?[choice]";
+DIALOG_ESP[0] = "[character,none,-1]* Estos arándanos se ven\n  maduros.[/page]";
+DIALOG_ESP[1] = "[character,none,-1]* ¿Te los llevas?[choice]";
 global.choices[0] = "[character,none,-1]\nYes";
 global.choices[1] = "[character,none,-1]\nNo";
 global.choices_esp[0] = "[character,none,-1]\nSí";

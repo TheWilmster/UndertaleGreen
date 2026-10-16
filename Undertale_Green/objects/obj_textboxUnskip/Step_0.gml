@@ -68,9 +68,9 @@ if (is_choice == true)
 		if (confirm)
 		{
 			if (global.language == 0)
-				global.msg = [];
+				DIALOG = [];
 			if (global.language == 1)
-				global.msg_esp = [];
+				DIALOG_ESP = [];
 			audio_play_sound(snd_select, 1, false);
 			with (global.choice_object)
 			{
@@ -78,9 +78,9 @@ if (is_choice == true)
 				global.choice_object = -4;
 			}
 			if (global.language == 0)
-				m = string_concat_ext(global.msg);
+				m = string_concat_ext(DIALOG);
 			if (global.language == 1)
-				m = string_concat_ext(global.msg_esp);
+				m = string_concat_ext(DIALOG_ESP);
 			s = scribble(m);
 			s.scale(2);
 			if (global.language == 0)

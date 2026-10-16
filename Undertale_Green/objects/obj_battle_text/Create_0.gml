@@ -1,8 +1,8 @@
 p = 0;
 if (global.language == 0)
-	m = string_concat_ext(global.msg);
+	m = string_concat_ext(DIALOG);
 else if (global.language == 1)
-	m = string_concat_ext(global.msg_esp);
+	m = string_concat_ext(DIALOG_ESP);
 textspeed = 0.5;
 is_choice = false;
 option_x = 0;

@@ -1,8 +1,8 @@
-global.msg[0] = "[character,none,-1][delay,1]* (You look at the Necklace.)[/page]";
-global.msg[1] = "[character,none,-1]* (...[delay,333]!)[/page]";
-global.msg[2] = "[character,none,-1]* (You figure this must be the\n  surprise Eden was talking\n  about.)[/page]";
-global.msg[3] = "[character,none,-1]* (You vow to return it as\n  soon as possible.)[/page]";
-global.msg[4] = "[character,none,-1]* Pick it up?[choice]";
+DIALOG[0] = "[character,none,-1][delay,1]* (You look at the Necklace.)[/page]";
+DIALOG[1] = "[character,none,-1]* (...[delay,333]!)[/page]";
+DIALOG[2] = "[character,none,-1]* (You figure this must be the\n  surprise Eden was talking\n  about.)[/page]";
+DIALOG[3] = "[character,none,-1]* (You vow to return it as\n  soon as possible.)[/page]";
+DIALOG[4] = "[character,none,-1]* Pick it up?[choice]";
 global.choices[0] = "[character,none,-1]\nYes";
 global.choices[1] = "[character,none,-1]\nNo";
 global.choices_esp[0] = "[character,none,-1]\nSí";

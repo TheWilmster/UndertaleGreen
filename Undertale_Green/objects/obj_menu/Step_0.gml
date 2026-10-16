@@ -115,43 +115,43 @@ if (current_menu == 1 && item_text == false)
 				instance_destroy();
 				selected_item = global.inventory[option];
 				if (room == rm_greenroom)
-					global.msg[0] = "[character,none,-1][delay,1]* (Nothing happened.)";
+					DIALOG[0] = "[character,none,-1][delay,1]* (Nothing happened.)";
 				else if (room == rm_hallway1)
-					global.msg[0] = "[character,none,-1][delay,1]* (That's not a helmet.)";
+					DIALOG[0] = "[character,none,-1][delay,1]* (That's not a helmet.)";
 				else if (room == rm_hallway2)
-					global.msg[0] = "[character,none,-1][delay,1]* (That's not a helmet.)";
+					DIALOG[0] = "[character,none,-1][delay,1]* (That's not a helmet.)";
 				else if (room == rm_lobby)
-					global.msg[0] = "[character,none,-1][delay,1]* (That's not a helmet.)";
+					DIALOG[0] = "[character,none,-1][delay,1]* (That's not a helmet.)";
 				else if (room == rm_hallway3)
-					global.msg[0] = "[character,none,-1][delay,1]* (Nothing happened.)";
+					DIALOG[0] = "[character,none,-1][delay,1]* (Nothing happened.)";
 				if (selected_item.label == global.itemlist.keycard.label && room == rm_greenroom)
 				{
-					global.msg[0] = "[character,none,-1][delay,1]* (You scan the Keycard.)[keyunlock]";
+					DIALOG[0] = "[character,none,-1][delay,1]* (You scan the Keycard.)[keyunlock]";
 					array_delete(global.inventory, item_selected, 1);
 				}
 				if (selected_item.label == global.itemlist.helmet.label && room == rm_hallway1)
 				{
-					global.msg[0] = "[character,none,-1][delay,1]* (You hand her the helmet.)[helmetunlock1]";
+					DIALOG[0] = "[character,none,-1][delay,1]* (You hand her the helmet.)[helmetunlock1]";
 					array_delete(global.inventory, item_selected, 1);
 				}
 				if (selected_item.label == global.itemlist.helmet.label && room == rm_hallway2)
 				{
-					global.msg[0] = "[character,none,-1][delay,1]* (You hand her the helmet.)[helmetunlock2]";
+					DIALOG[0] = "[character,none,-1][delay,1]* (You hand her the helmet.)[helmetunlock2]";
 					array_delete(global.inventory, item_selected, 1);
 				}
 				if (selected_item.label == global.itemlist.helmet.label && room == rm_lobby)
 				{
-					global.msg[0] = "[character,none,-1][delay,1]* (You hand her the helmet.)[helmetunlock3]";
+					DIALOG[0] = "[character,none,-1][delay,1]* (You hand her the helmet.)[helmetunlock3]";
 					array_delete(global.inventory, item_selected, 1);
 				}
 				if (selected_item.label == global.itemlist.masterkey.label && room == rm_hallway3)
 				{
-					global.msg[0] = "[character,none,-1][delay,1]* (You try the Master Keys.)[/page]";
-					global.msg[1] = "[character,none,-1][delay,1]* [nightfade](...[delay,333]!)[/page]";
-					global.msg[2] = "[character,none,-1][delay,1]* (They worked!)[delay,333]\n* (The door is unlocked!)[/page]";
-					global.msg[3] = "[character,none,-1][delay,1]* (...)[/page]";
-					global.msg[4] = "[character,none,-1][delay,1]* (...[delay,333]But the keys got jammed in\n  the keyhole.)[/page]";
-					global.msg[5] = "[character,none,-1][delay,1]* (Oh well.)[delay,333]\n* (Not like you wanted them\n  anyway.)[unlockhall3]";
+					DIALOG[0] = "[character,none,-1][delay,1]* (You try the Master Keys.)[/page]";
+					DIALOG[1] = "[character,none,-1][delay,1]* [nightfade](...[delay,333]!)[/page]";
+					DIALOG[2] = "[character,none,-1][delay,1]* (They worked!)[delay,333]\n* (The door is unlocked!)[/page]";
+					DIALOG[3] = "[character,none,-1][delay,1]* (...)[/page]";
+					DIALOG[4] = "[character,none,-1][delay,1]* (...[delay,333]But the keys got jammed in\n  the keyhole.)[/page]";
+					DIALOG[5] = "[character,none,-1][delay,1]* (Oh well.)[delay,333]\n* (Not like you wanted them\n  anyway.)[unlockhall3]";
 					array_delete(global.inventory, item_selected, 1);
 				}
 				obj_player.curr_state = PlayerState.INTERACT;
@@ -200,7 +200,7 @@ if (current_menu == 1 && item_text == false)
 			if (option == 1)
 			{
 				item_text = true;
-				global.msg[0] = selected_item.desc;
+				DIALOG[0] = selected_item.desc;
 				obj_player.curr_state = PlayerState.INTERACT;
 				instance_create_depth(x, y, -1000, obj_textboxNEW);
 			}
@@ -209,12 +209,12 @@ if (current_menu == 1 && item_text == false)
 				item_text = true;
 				if (selected_item.can_trash == true)
 				{
-					global.msg[0] = "[character,none,-1][delay,1]* You dropped the " + selected_item.label + ".";
+					DIALOG[0] = "[character,none,-1][delay,1]* You dropped the " + selected_item.label + ".";
 					array_delete(global.inventory, item_selected, 1);
 				}
 				else
 				{
-					global.msg[0] = "[character,none,-1][delay,1]* You should probably hold on\n  to the " + selected_item.label + ".";
+					DIALOG[0] = "[character,none,-1][delay,1]* You should probably hold on\n  to the " + selected_item.label + ".";
 				}
 				obj_player.curr_state = PlayerState.INTERACT;
 				instance_create_depth(x, y, -1000, obj_textboxNEW);

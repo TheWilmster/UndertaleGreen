@@ -15,8 +15,8 @@
   "name":"obj_cut_intro_car",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Cutscenes & Overworld",
+    "path":"folders/Objects/Cutscenes & Overworld.yy",
   },
   "parentObjectId":null,
   "persistent":false,

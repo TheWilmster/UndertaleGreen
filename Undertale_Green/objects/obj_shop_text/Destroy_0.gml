@@ -1,2 +1,2 @@
-global.msg = [];
+DIALOG = [];
 scribble_flush_everything();

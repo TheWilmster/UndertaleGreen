@@ -9,8 +9,8 @@
   "name":"obj_barrier_dressing",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Barriers",
+    "path":"folders/Objects/Collisions/Barriers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

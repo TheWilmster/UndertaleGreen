@@ -9,8 +9,8 @@
   "name":"obj_moneydrop",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Spriteless",
+    "path":"folders/Objects/Cutscenes & Overworld/NPCs & Actors/Spriteless.yy",
   },
   "parentObjectId":null,
   "persistent":false,

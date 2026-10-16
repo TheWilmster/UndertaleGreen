@@ -1,5 +1,5 @@
-global.msg[0] = "[character,none,-1]* Go inside?[choice]";
-global.msg_esp[0] = "[character,none,-1]* ¿Meterte?[choice]";
+DIALOG[0] = "[character,none,-1]* Go inside?[choice]";
+DIALOG_ESP[0] = "[character,none,-1]* ¿Meterte?[choice]";
 global.choices[0] = "[character,none,-1]\nYes";
 global.choices[1] = "[character,none,-1]\nNo";
 global.choices_esp[0] = "[character,none,-1]\nSí";

@@ -118,6 +118,6 @@ else
 {
 	global.school_time_sequence = 2;
 	audio_stop_sound(mus_queen_chai);
-	global.msg[0] = "[battleface,chai,normal][c_black]Well done,[freeze][delay,333][continue] Olive.[battle_end]";
+	DIALOG[0] = "[battleface,chai,normal][c_black]Well done,[freeze][delay,333][continue] Olive.[battle_end]";
 	instance_create_depth(x + spr_w, y - spr_h, depth - 1, obj_enemy_text);
 }

@@ -23,8 +23,8 @@ function save()
 		exp: global.exp,
 		exp_left: global.expleft,
 		chai_firsttime: global.chai_firsttime,
-		msg: global.msg,
-		msg_esp: global.msg_esp,
+		msg: DIALOG,
+		msg_esp: DIALOG_ESP,
 		choices_zero: global.choices[0],
 		choices_one: global.choices[1],
 		choices_esp_zero: global.choices_esp[0],
@@ -180,8 +180,8 @@ function load()
 		global.items_collected = dataToLoad.items_collected;
 		global.exp = dataToLoad.exp;
 		global.expleft = dataToLoad.exp_left;
-		global.msg = dataToLoad.msg;
-		global.msg_esp = dataToLoad.msg_esp;
+		DIALOG = dataToLoad.msg;
+		DIALOG_ESP = dataToLoad.msg_esp;
 		global.choices[0] = dataToLoad.choices_zero;
 		global.choices[1] = dataToLoad.choices_one;
 		global.choices_esp[0] = dataToLoad.choices_esp_zero;
@@ -372,10 +372,10 @@ function cryptography_rc4(arg0, arg1, arg2, arg3)
 {
 	var s = array_create(256);
 	var _keyLength = string_byte_length(arg1);
-	for (i = 255; i >= 0; i--)
+	for (var i = 255; i >= 0; i--)
 		s[i] = i;
 	var j = 0;
-	for (i = 0; i <= 255; i++)
+	for (var i = 0; i <= 255; i++)
 	{
 		j = (j + s[i] + string_byte_at(arg1, i % _keyLength)) % 256;
 		var _temp = s[i];

@@ -63,5 +63,5 @@ else
 {
 	global.school_time_sequence = 2;
 	audio_stop_sound(mus_knight_gray);
-	global.msg[0] = "[battleface,gray,surprised][c_black]You got me, little\nChai...[battle_end]";
+	DIALOG[0] = "[battleface,gray,surprised][c_black]You got me, little\nChai...[battle_end]";
 }
